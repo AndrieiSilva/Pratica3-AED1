@@ -1,4 +1,4 @@
-# Trabalho prático 2 de AED1
+# Trabalho prático 3 de AED1
 
 **Nome: Andriei Roshild da Silva**
 
@@ -12,48 +12,36 @@
 
 **Turma: M2**
 
-# Exercício: LeetCode : 1405. Longest Happy String
+# Exercício: LeetCode : 1382. Balance a Binary Search Tree
+
 ## Descrição do exercício:
-A string s is called happy if it satisfies the following conditions:
+Given the root of a binary search tree, return a balanced binary search tree with the same node values. If there is more than one answer, return any of them.
 
-s only contains the letters 'a', 'b', and 'c'.
-
-s does not contain any of "aaa", "bbb", or "ccc" as a substring.
-
-s contains at most a occurrences of the letter 'a'.
-
-s contains at most b occurrences of the letter 'b'.
-
-s contains at most c occurrences of the letter 'c'.
-
-**Given three integers a, b, and c, return the longest possible happy string. If there are multiple longest happy strings, return any of them. If there is no such string, return the empty string "".**
-
-A substring is a contiguous sequence of characters within a string.
+A binary search tree is balanced if the depth of the two subtrees of every node never differs by more than 1.
 
 ### **Example 1:**
 
-Input: a = 1, b = 1, c = 7
+Input: root = [1,null,2,null,3,null,4,null,null]
 
-Output: "ccaccbcc"
+Output: [2,1,3,null,null,null,4]
 
-Explanation: "ccbccacc" would also be a correct answer.
+Explanation: This is not the only correct answer, [3,1,4,null,2] is also correct.
 
 ### **Example 2:**
 
-Input: a = 7, b = 1, c = 0
+Input: root = [2,1,3]
 
-Output: "aabaa"
+Output: [2,1,3]
 
-Explanation: It is the only correct answer in this case.
+### **Constraints:**
 
-Constraints:
+The number of nodes in the tree is in the range [1, 104].
 
-0 <= a, b, c <= 100
-a + b + c > 0
+1 <= Node.val <= 105
 
 ## Realização do exercício:
 
-Realizei o planejamento sobre como realizar o exercício em aula, tentei resolver o problema com uma fila de prioridade **dinâmica**, mas o LeetCode não aceitava pois dava erro de **limite de memória excedido**;
-Então apliquei uma fila de prioridade **não dinâmica**, aplicando a mesma estratégia da anterior.
+Não obtive sucesso no exercício em aula, tendo o mesmo passado somente de 4 testes do LeetCode, depois de 5 horas fazendo o exercício, tive que dar uma pesquisada sobre como resolver o problema.
+Acabei descobrindo que o problema tinha uma solução mais simples que eu tinha imaginado. Então realizei o problema de forma simples.
 
 # Submit do LeetCode -----------> [LINK](https://leetcode.com/submissions/detail/1722262319/)
